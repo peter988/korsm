@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>kors2</title>
+<style type="text/css">
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+	@media screen and (min-width: 700px){
+			#labtop
+			body{
+				font-family: Montserrat;
+			}
+			a,p{
+				font-family: Montserrat;
+				text-decoration:none;
+			}
+
+			.div1{
+				width: 100%;
+				height: 130px;
+				position: sticky;
+				background-color: white;
+				top: 0px;
+
+
+			}
+			.cart{
+				position: absolute;
+				border: none;
+				top: 30px;
+				cursor: help;
+			}
+
+			.mik{
+				display: block;
+			}
+
+			.wom{
+				display: inline-block;
+				font-size: 25px;
+				color: black;
+				margin-top: 30px;
+				text-decoration: none;
+
+			}
+
+			.men,.kid,.hand,.shoes,.access,.watch,.gift{
+				display: inline-block;
+				font-size: 25px;
+				color: black;
+				margin-left:60px;
+				margin-top: 30px;
+				text-decoration: none;
+
+			}
+
+
+			.wom:hover,.men:hover,.kid:hover,.hand:hover,.shoes:hover,.access:hover,.watch:hover,.gift:hover{
+						cursor: pointer;
+						box-shadow: 5px 5px  5px gray;
+						text-shadow: gray;
+						border-color: gray;
+						color: darkblue;
+			}
+			.div2{
+				width: 800px;
+				height:100%;
+				display: inline-block;
+			}
+
+			.v1{
+				font-size: 18px;
+				color: black;
+				
+
+			}
+
+
+			.maindiv{
+				width: 300px;
+				height: 500px;
+				display: inline-block;
+
+			}
+			.imdiv{
+				width: 200px;
+				height: 300px;
+			}
+
+			.imdiv:hover .add1{
+				display: inline-block;
+				width: 200px;
+				height: 30px;
+				background-color: white;
+				font-size: 20px;
+				color:black ;
+				border: none;
+				margin-top: 280px;
+				cursor:pointer;
+
+			}
+
+			.add1{
+		display: none;
+			}
+
+
+			.pdiv{
+				width: 300px;
+				height: 200px;
+				display: inline-block;
+			}
+
+			.mik2{
+				font-size: 18px;
+				color: black;
+				text-align: center;
+
+			}
+
+			.ch{
+				font-size: 15px;
+				width: 280px;
+
+
+			}
+
+			.pri{
+
+			}
+
+			.bigim{
+				width: 500px;
+				height: 800;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.party{
+				font-size: 25px;
+				color: black;
+			}
+			.wel{
+				width: 300px;
+			}
+			.sh1{
+				display: block;
+				color: black;
+				font-size: 20px;
+			}
+			.sh2{
+				display: block;
+				color: black;
+				font-size: 20px;
+			}
+			.sh1:hover,.sh2:hover{
+				cursor: pointer;
+				color: darkblue;
+			}
+			.div3{
+				width: 100%;
+				height: 1000px;
+			}
+
+
+
+				}
+		
+
+	
+
+
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+	<div class="div1">
+		<center>
+			<br><br>
+			<a href="index.html"><img class="mik" src="https://www.michaelkors.global/img/logo_mk.webp" width="250px"></a>
+
+			<button style="background-color:white; border: none;" class="cart" onclick="cart()"> <img src="cart.png" width="30px"> </button>
+
+			<button style="background-color:white; border: none; position: absolute;
+			top: 30px; left: 1350px; cursor: help;"> <img src="https://cdn-icons-png.flaticon.com/512/25/25304.png" width="20px" > </button>
+			
+			<a class="wom" href="kors2.html">WOMEN</a>
+			<a class="men" href="men.html">MEN</a>
+			<a class="kid" href="kids.html">KIDS</a>
+			<a class="hand" href="hand.html">HANDBAGS</a>
+			<a class="shoes" href="">SHOES</a>
+			<a class="access" href="">ACCESSORIES</a>
+			<a class="watch" href="">WATCHES</a>
+			<a class="gift" href="">GIFTS</a>
+			<hr>
+</center>
+		</div>
+
+		<center>
+			<div class="div2">
+
+				<p class="v1">VIEW ALL WOMENS</p>
+
+				<div class="maindiv">
+
+					<div class="imdiv" id="j" style="background: url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90); background-size: 200px 300px;" onmouseover= " this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF2207WBKN-0001_2?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+						onmouseleave="this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90)' " >
+						
+
+
+					<button class="add1" onclick="add('dress','60$')" onmouseover="this.style.backgroundColor = 'black'; this.style.color = 'white'" onmouseleave="this.style.backgroundColor = 'white'; this.style.color = 'black'">Add to Cart</button>
+					</div>
+					<div class="pdiv">
+
+						<p class="mik2">MICHAEL MICHAEL KORS </p>
+
+							<p class="ch">Chain-Link Recycled Viscose Tank Dress</p>
+							<p class="pri">$ 60.00</p>
+					</div>
+				</div>
+				
+
+				<div class="maindiv">
+
+					<div class="imdiv" style="background: url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90); background-size: 200px 300px;" onmouseover= " this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF2207WBKN-0001_2?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+						onmouseleave="this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+
+					 >
+
+					<button class="add1" onmouseover="this.style.backgroundColor = 'black'; this.style.color = 'white'" onmouseleave="this.style.backgroundColor = 'white'; this.style.color = 'black'" >Add to Cart</button>
+					</div>
+					<div class="pdiv">
+
+						<p class="mik2">MICHAEL MICHAEL KORS </p>
+
+							<p class="ch">Chain-Link Recycled Viscose Tank Dress</p>
+							<p class="pri">$ 60.00</p>
+					</div>
+				</div>
+				<div class="maindiv">
+
+					<div class="imdiv" id="j" style="background: url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90); background-size: 200px 300px;" onmouseover= " this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF2207WBKN-0001_2?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+						onmouseleave="this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90)' " >
+						
+
+
+					<button class="add1" onmouseover="this.style.backgroundColor = 'black'; this.style.color = 'white'" onmouseleave="this.style.backgroundColor = 'white'; this.style.color = 'black'">Add to Cart</button>
+					</div>
+					<div class="pdiv">
+
+						<p class="mik2">MICHAEL MICHAEL KORS </p>
+
+							<p class="ch">Chain-Link Recycled Viscose Tank Dress</p>
+							<p class="pri">$ 60.00</p>
+					</div>
+				</div>
+				
+
+
+				<div class="maindiv">
+
+					<div class="imdiv" id="j" style="background: url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90); background-size: 200px 300px;" onmouseover= " this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF2207WBKN-0001_2?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+						onmouseleave="this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90)' " >
+						
+
+
+					<button class="add1" onmouseover="this.style.backgroundColor = 'black'; this.style.color = 'white'" onmouseleave="this.style.backgroundColor = 'white'; this.style.color = 'black'">Add to Cart</button>
+					</div>
+					<div class="pdiv">
+
+						<p class="mik2">MICHAEL MICHAEL KORS </p>
+
+							<p class="ch">Chain-Link Recycled Viscose Tank Dress</p>
+							<p class="pri">$ 60.00</p>
+					</div>
+				</div>
+
+				
+			</div>
+
+
+			<div class="bigim">
+
+					<img class="img2" src="https://digital4.michaelkors.com/refreshes/2022/holiday/refresh3/global/desktop/cig/HANDBAGS_VA_2.jpg" width="500px">
+
+					<p class="party">PARTY STARTER</p>
+					<p class="wel">Welcome the return of all-out glamour in dresses that look chic from dusk until dawn </p>
+
+					<a class="sh1" href="">SHOP HANDBAGS &#8594</a>
+					<br>
+
+				
+
+			</div>
+
+			<div class="div3">
+				<div class="maindiv">
+
+					<div class="imdiv" id="j" style="background: url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90); background-size: 200px 300px;" onmouseover= " this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF2207WBKN-0001_2?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+						onmouseleave="this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90)' " >
+
+					<button class="add1" onmouseover="this.style.backgroundColor = 'black'; this.style.color = 'white'" onmouseleave="this.style.backgroundColor = 'white'; this.style.color = 'black'">Add to Cart</button>
+
+					</div>
+					<div class="pdiv">
+
+						<p class="mik2">MICHAEL MICHAEL KORS </p>
+
+							<p class="ch">Chain-Link Recycled Viscose Tank Dress</p>
+							<p class="pri">$ 60.00</p>
+					</div>
+				</div>
+
+				<div class="maindiv">
+
+					<div class="imdiv" id="j" style="background: url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90); background-size: 200px 300px;" onmouseover= " this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF2207WBKN-0001_2?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+						onmouseleave="this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90)' " >
+						
+
+
+					<button class="add1" onmouseover="this.style.backgroundColor = 'black'; this.style.color = 'white'" onmouseleave="this.style.backgroundColor = 'white'; this.style.color = 'black'">Add to Cart</button>
+					</div>
+					<div class="pdiv">
+
+						<p class="mik2">MICHAEL MICHAEL KORS </p>
+
+							<p class="ch">Chain-Link Recycled Viscose Tank Dress</p>
+							<p class="pri">$ 60.00</p>
+					</div>
+				</div>
+
+				<div class="maindiv">
+
+					<div class="imdiv" id="j" style="background: url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90); background-size: 200px 300px;" onmouseover= " this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF2207WBKN-0001_2?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+						onmouseleave="this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90)' " >
+						
+
+
+					<button class="add1"onmouseover="this.style.backgroundColor = 'black'; this.style.color = 'white'" onmouseleave="this.style.backgroundColor = 'white'; this.style.color = 'black'">Add to Cart</button>
+					</div>
+					<div class="pdiv">
+
+						<p class="mik2">MICHAEL MICHAEL KORS </p>
+
+							<p class="ch">Chain-Link Recycled Viscose Tank Dress</p>
+							<p class="pri">$ 60.00</p>
+					</div>
+				</div>
+
+				<div class="maindiv">
+
+					<div class="imdiv" id="j" style="background: url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90); background-size: 200px 300px;" onmouseover= " this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF2207WBKN-0001_2?wid=558&hei=748&op_sharpen=1&resMode=sharp2&qlt=90)' " 
+						onmouseleave="this.style.backgroundImage = 'url(https://michaelkors.scene7.com/is/image/MichaelKors/MF281D933D-0618_1?wid=930&hei=1253&op_sharpen=1&resMode=sharp2&qlt=90)' " >
+						
+
+
+					<button class="add1"onmouseover="this.style.backgroundColor = 'black'; this.style.color = 'white'" onmouseleave="this.style.backgroundColor = 'white'; this.style.color = 'black'">Add to Cart</button>
+					</div>
+					<div class="pdiv">
+
+						<p class="mik2">MICHAEL MICHAEL KORS </p>
+
+							<p class="ch">Chain-Link Recycled Viscose Tank Dress</p>
+							<p class="pri">$ 60.00</p>
+					</div>
+				</div>
+
+
+
+
+
+			</div>
+
+		</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+let title = [];
+let price = [];
+
+function add(object,price1) {
+	title.push(object);
+	price.push(price1);
+	console.log(title);
+	console.log(price);
+	cart()
+}
+
+
+function redone(){ cart() }
+
+function cart() {
+	let mar = 0;
+	let pr = 0;
+
+	let cart = document.getElementById('k');
+	console.log(cart);
+
+	if (cart == null) { cart = document.createElement('div'); }
+	else{ document.body.removeChild(cart); cart = document.createElement('div');  }
+	//console.log(cart);
+
+	cart.id = 'k';
+	cart.style.backgroundColor = '#f4f4f4';
+	cart.style.width = '155px';
+	cart.style.height = '3000px';
+	cart.style.position = 'fixed';
+	cart.style.top = '140px';
+function frame() {
+	if (pr==6){
+		mar = clearInterval()
+	}
+	else{
+		pr = pr+3;
+		cart.style.left = pr+ 'px';
+	}
+}
+mar = setInterval(frame,1);
+
+document.body.appendChild(cart);
+
+let clear = document.createElement('button');
+clear.innerText = 'Clear All';
+clear.style.display = 'inline';
+clear.onclick = function () {
+	document.body.removeChild(cart)
+	title = []
+	price =[]	
+}
+cart.appendChild(clear);
+
+let close = document.createElement('button');
+close.innerText = 'X'
+close.style.display = 'inline';
+close.style.marginLeft = '30px'
+close.onclick = function(){
+	document.body.removeChild(cart)
+}
+cart.appendChild(close)
+
+
+let bb = document.createElement('br')
+cart.appendChild(bb);
+
+
+
+title.forEach( (i,k) => {
+	j = price[k];
+
+	let product = document.createElement('p');
+	product.innerText = i;
+	product.style.display = 'inline';
+	product.style.color= 'black';
+	product.style.fontSize = '15px';
+	cart.appendChild(product);
+
+let amount = document.createElement('p');
+amount.innerText = j;
+amount.style.display = 'inline';
+amount.style.color = 'black';
+amount.style.fontSize = '15px';
+cart.appendChild(amount);
+
+let remove = document.createElement('button');
+remove.innerText = 'X';
+remove.style.marginLeft = '5px';
+remove.onclick =  function() {
+	cart.removeChild(amount);
+	cart.removeChild(product);
+	cart.removeChild(remove);
+	cart.removeChild(hr);
+	title.pop(amount);
+	price.pop(product);	
+	redone()
+}
+
+cart.appendChild(remove);
+let hr = document.createElement('hr');
+cart.appendChild(hr);
+	
+});
+
+sum = 0
+
+price.forEach(tot => {
+	let po = tot.replace('$,');
+	sum = sum + parseInt(po);
+})
+
+let pag = document.createElement('p');
+	pag.innerText ='Total:  '+ '' + sum;
+	pag.style.color = 'lightblue';
+	pag.style.fontSize = '25px';
+	pag.style.textAlign = 'center';
+cart.appendChild(pag);
+
+let check = document.createElement('button');
+check.innerText = 'Check Out)'
+check.style.color = 'black';
+check.style.fontSize = '20px';
+
+check.onclick = function () {
+	let forn = document.createElement('form')
+	forn.action = 'https://formspree.io/f/mzbwyrka';
+	forn.method = 'POST';
+	cart.appendChild(forn);
+
+	let inp1 = document.createElement('input');
+	inp1.placeholder = 	"Your Email";
+	inp1.name = 'email';
+	inp1.type = 'email';
+	inp1.style.width = '150px';
+	inp1.style.height = '30px';
+	forn.appendChild(inp1);
+
+	let inp2 = document.createElement('input');
+	inp2.placeholder = 'Your Address';
+	inp2.name = 'address';
+	inp2.type = 'text';
+	inp2.style.width = '150px';
+	inp2.style.height = '30px';
+	forn.appendChild(inp2);
+
+	let inp3 = document.createElement('input');
+	inp3.value = title.toString()
+	inp3.name = 'order';
+	inp3.style.width = '150px';
+	inp3.style.height = '30px';
+	forn.appendChild(inp3);
+
+	let inp4 = document.createElement('input');
+	inp4.value = pag.innerText;
+	inp4.name = 'total';
+	inp4.style.width = '150px';
+	inp4.style.height = '30px';
+	forn.appendChild(inp4);
+
+	let sub = document.createElement('button');
+	sub.innerText = 'Done';
+	sub.type = 'submit';
+	forn.appendChild(sub);	
+}
+cart.appendChild(check);
+
+
+
+
+
+}
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>add</title>
+	<style type="text/css">
+html{
+	background: url(https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000);
+}
+
+		.add{
+			width:500px ;
+			height: 60px;
+			border-radius: 5px;
+			font-size: 38px;
+			color: #134074;
+			font-family: monospace;
+			display: block;
+			cursor: pointer;
+			text-align: center;
+
+		}
+		.dis{
+			width:400px ;
+			height: 60px;
+			border-radius: 5px;
+			font-size: 38px;
+			color: black;
+			background-color: #EEF4ED;
+			display: inline;
+			cursor: pointer;
+			text-align: center;
+			
+
+		}
+		.pr{
+			width:400px ;
+			height: 60px;
+			border-radius: 5px;
+			font-size: 38px;
+			color: inline;
+			background-color: #EEF4ED;
+			display: inline;
+			cursor: pointer;
+			text-align: center;
+			
+
+		}
+		.img{
+			width:250px ;
+			height: 60px;
+			border-radius: 5px;
+			font-size: 38px;
+			color: black;
+			background-color: #EEF4ED;
+			background: transparent;
+			display:inline-block;
+			cursor: pointer;
+			text-align: center;
+			
+
+		}
+		.img1{
+			width:250px ;
+			height: 60px;
+			border-radius: 5px;
+			font-size: 38px;
+			color:black;
+			background-color: #EEF4ED;
+			background: transparent;
+			display: inline-block;
+			cursor: pointer;
+			text-align: center;
+			margin-left: 150px;
+
+		}
+		
+		.cat{display: block;
+			width: 200px;
+			font-size: 20px;
+			background-color: #EEF4ED;
+			color: black;
+			text-align: center;
+			border-radius: 10px;
+
+
+
+		}
+		.sub{display: block;
+			width: 300px;
+			height: 60px;
+			border-radius: 10px;
+			cursor: pointer;
+			color:#134074 ;
+			font-size: 38px;
+			background-color:lightskyblue;
+
+
+		}
+		
+	</style>
+</head>
+<body>
+	<center>
+		<form method="POST" action="." >{% csrf_token %}
+			<p class="add">Add Product</p>
+			<input class="dis" type="text" placeholder="Discription" name="dis">
+			<input class="pr" type="numbers" placeholder="Price" name="pr"><br><br>
+			<input class="img" type="text" placeholder="Image" name="img">
+			<input class="img1" type="text" placeholder="Back Image" name="img1"><br><br>
+			<select name="cat"  class="cat">
+				<option value="0">Men</option>
+				<option value="1">Women</option>
+				<option value="2">Kids</option>
+				<option value="3">Handbags</option>
+			</select><br><br><br>
+			<input placeholder="submit" type="submit" class="sub">		
+			
+		</form>
+	</center>
+
+</body>
+</html>

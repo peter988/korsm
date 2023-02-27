@@ -1,0 +1,791 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kors</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+		@media screen and (max-width: 700px){
+
+			body{
+				font-family: Montserrat;
+				width: 150%;
+		
+			}
+			a,p{
+				font-family: Montserrat;
+				text-decoration:none;
+			}
+
+			.div1{
+				width: 100%;
+				height: 130px;
+				position: sticky;
+				background-color: white;
+				top: 0px;
+
+
+			}
+
+			.mik{
+				display: block;
+			}
+
+			.wom{
+				display: none;
+				font-size: 25px;
+				color: black;
+				margin-top: 30px;
+				text-decoration: none;
+
+			}
+
+			.men,.kid,.hand,.shoes,.access,.watch,.gift{
+				display: none;
+				font-size: 25px;
+				color: black;
+				margin-left:60px;
+				margin-top: 30px;
+				text-decoration: none;
+
+			}
+			.vid{
+				width: 85%;
+			}
+			.bag{
+				width: 85%;
+			}
+			.image3,.image4,.image5{
+				width: 110%;
+				margin-left: 10px;
+			}
+
+
+			.wom:hover,.men:hover,.kid:hover,.hand:hover,.shoes:hover,.access:hover,.watch:hover,.gift:hover{
+						cursor: pointer;
+						box-shadow: 5px 5px  5px gray;
+						text-shadow: gray;
+						border-color: gray;
+						color: darkblue;
+			}
+			.div2{
+				width: 100%;
+			}
+
+			.glow{
+				font-size: 38px;
+				font-family: Montserrat;
+				color: black;
+				font-weight: bold;
+
+			}
+
+			.sea{
+				font-size: 15px;
+				color: black;
+				width: 440px;
+			}
+
+			.shop,.shop2,.shop3{
+				display: block;
+				font-size: 20px;
+				color:black;
+				text-decoration: none;
+			}
+
+			
+			.shop:hover,.shop2:hover,.shop3:hover,.dis:hover,.sh1:hover,.sh2:hover,.sh3:hover,.sh4:hover,.men1:hover,.men2:hover{
+						cursor: pointer;
+						color: darkblue;
+					}
+
+			.gleam{
+
+				font-size: 18px;
+				color: black;
+				width: 530px;
+			}
+
+		
+				.gifting{
+						display: inline-block;
+						font-weight: bold;
+						font-size: 25px;
+						margin-left: 20px;
+						color: black;
+						text-align: center;
+					}
+
+					.div3{
+						background-color: rgb(226,199,159);
+						width: 85%;
+						margin-left: 30px;
+						height: 1630px;
+
+					}
+
+					.get,.bre{
+						font-size: 38px;
+						color: black;
+						font-weight: bold;
+
+					}
+
+					.be,.dis{
+					display: block;
+					font-size: 20px;
+					color:black;
+					text-decoration: none;
+						
+
+					}
+
+
+					.div4,.div5{
+						display: inline-block;
+						width: 450px;
+					}
+
+					.sh1,.sh2,.sh3,.sh4{
+						display: block;
+						font-size: 20px;
+						color:black;
+						text-decoration: none;
+						margin-top: 30px;
+					}
+
+			
+					.div6{
+						width: 85%;
+						height: 905px;
+
+					}
+					
+
+					.dar{
+					display: block;
+					font-size: 18px;
+					text-decoration: none;
+
+					}
+					.div7{display: block;
+						height: 800px;
+
+					}
+					.div8{
+						display: block;
+						height: 830px;
+					}
+					.div10{
+						margin-top: 700px;
+						width: 85%;
+						height: 1150px;
+
+					}
+					.div11{
+						
+						width: 85%;
+						height: 850px;
+						margin-left: 10px;
+					}
+					.hr1,.hr2,.hr4,.hr6{
+						display: inline-block;
+						width: 10%;
+						height: 0px;
+						border-style: solid;
+						margin-left: 30px;
+					}
+
+
+					.hr3{
+						display: inline-block;
+						width: 10%;
+						height: 0px;
+						border-style: solid;
+						margin-left: 0px;
+					}
+
+					
+
+
+					.hr5{
+						display: inline-block;
+						width: 10%;
+						height: 0px;
+						border-style: solid;
+						margin-left: 0px;
+					}
+
+					.mik2{
+						display: inline-block;
+						font-family: monospace;
+						font-weight: bold;
+						font-size: 25px;
+						margin-left: 20px;
+						color: black;
+						text-align: center;
+					}
+
+					.ev{
+						font-family:Montserrat ;
+						font-size: 38px;
+						color: black;
+						font-weight: bold;
+
+					}
+
+					.from{
+
+					display: block;
+					font-size: 18px;
+					text-decoration: none;
+
+					}
+
+
+					.men1,.men2{
+
+						display: block;
+						font-size: 20px;
+						color:black;
+						text-decoration: none;
+						margin-top: 30px;
+
+					}
+
+					.div12{
+					margin-top: 100px;
+					 width: 100%;
+					 display: block;
+					  height: 200px;
+					 background-color:rgb(244, 244, 244);
+
+					}
+
+					.div13{
+						margin-left: 300px;
+					}
+					
+
+					
+					.sign1{ 
+						font-size:25px ;
+						width: 300px;
+						
+
+					}
+
+					.email{
+						display: inline-block;
+						width: 100px;
+						display: inline;
+						height: 30px;
+						text-align: center;
+						font-size: 15px;
+					}
+
+					.sign2{ display: inline;
+						font-size: 15px;
+						color: white;
+						background-color: black;
+						width: 100px;
+						height: 35px;
+					
+
+					}
+
+					.acc1{
+						font-size: 30px;
+						color: black;
+						display: block;
+						margin-top: -130px;
+
+					
+
+
+					}
+					
+					.acc2{
+						font-size: 25px;
+						color: black;
+						display: block;
+
+
+					}
+					.acc3{
+						font-size: 25px;
+						color: black;
+						display: block;
+
+					}
+			
+			
+		}
+
+
+
+
+
+
+		@media screen and (min-width: 700px){
+			#labtop
+
+			body{
+				font-family: Montserrat;
+			}
+			a,p{
+				font-family: Montserrat;
+				text-decoration:none;
+			}
+
+			.div1{
+				width: 100%;
+				height: 130px;
+				position: sticky;
+				background-color: white;
+				top: 0px;
+
+
+			}
+
+			.mik{
+				display: block;
+			}
+
+			.wom{
+				display: inline-block;
+				font-size: 25px;
+				color: black;
+				margin-top: 30px;
+				text-decoration: none;
+
+			}
+
+			.men,.kid,.hand,.shoes,.access,.watch,.gift{
+				display: inline-block;
+				font-size: 25px;
+				color: black;
+				margin-left:60px;
+				margin-top: 30px;
+				text-decoration: none;
+
+			}
+
+
+			.wom:hover,.men:hover,.kid:hover,.hand:hover,.shoes:hover,.access:hover,.watch:hover,.gift:hover{
+						cursor: pointer;
+						box-shadow: 5px 5px  5px gray;
+						text-shadow: gray;
+						border-color: gray;
+						color: darkblue;
+			}
+			.div2{
+				width: 100%;
+			}
+
+			.glow{
+				font-size: 38px;
+				font-family: Montserrat;
+				color: black;
+				font-weight: bold;
+
+			}
+
+			.sea{
+				font-size: 18px;
+				color: black;
+				width: 640px;
+			}
+
+			.shop,.shop2,.shop3{
+				display: block;
+				font-size: 20px;
+				color:black;
+				text-decoration: none;
+			}
+
+			.shop:hover,.shop2:hover,.shop3:hover,.dis:hover,.sh1:hover,.sh2:hover,.sh3:hover,.sh4:hover,.men1:hover,.men2:hover,.acc1:hover,.acc2:hover,.acc3:hover,.email:hover,.sign2:hover{
+						cursor: pointer;
+						color: darkblue;
+					}
+
+			.gleam{
+
+				font-size: 18px;
+				color: black;
+				width: 530px;
+			}
+
+		
+					.gifting{
+						display: inline-block;
+						font-family: monospace;
+						font-weight: bold;
+						font-size: 25px;
+						margin-left: 20px;
+						color: black;
+						text-align: center;
+					}
+
+					.div3{
+						background-color: rgb(226,199,159);
+						width: 100%;
+						height: 905px;
+
+					}
+
+					.get,.bre{
+						font-family:Montserrat ;
+						font-size: 38px;
+						color: black;
+						font-weight: bold;
+
+					}
+
+					.be,.dis{
+					display: block;
+					font-size: 20px;
+					color:black;
+					text-decoration: none;
+						
+
+					}
+
+
+					.div4,.div5{
+						display: inline-block;
+						width: 450px;
+					}
+
+					.sh1,.sh2,.sh3,.sh4{
+						display: block;
+						font-size: 20px;
+						color:black;
+						text-decoration: none;
+						margin-top: 30px;
+					}
+
+			
+					.div6{
+						width: 100%;
+						height: 905px;
+
+					}
+					
+
+					.dar{
+					display: block;
+					font-size: 18px;
+					text-decoration: none;
+
+					}
+					.div7,.div8{
+						display: inline-block;
+
+					}
+					.div10{
+						display: block;
+						width: 100%;
+						height: 1205px;
+
+					}
+					.div11{
+						width: 1600px;
+					}
+
+					.hr1,.hr2,.hr4,.hr6{
+						display: inline-block;
+						width: 40%;
+						height: 0px;
+						border-style: solid;
+						margin-left: 30px;
+					}
+
+
+					.hr3{
+						display: inline-block;
+						width: 40%;
+						height: 0px;
+						border-style: solid;
+						margin-left: 10px;
+					}
+
+					
+
+
+					.hr5{
+						display: inline-block;
+						width: 40%;
+						height: 0px;
+						border-style: solid;
+						margin-left: 0px;
+					}
+
+					.mik2{
+						display: inline-block;
+						font-family: monospace;
+						font-weight: bold;
+						font-size: 25px;
+						margin-left: 20px;
+						color: black;
+						text-align: center;
+					}
+
+					.ev{
+						font-family:Montserrat ;
+						font-size: 38px;
+						color: black;
+						font-weight: bold;
+
+					}
+
+					.from{
+
+					display: block;
+					font-size: 18px;
+					text-decoration: none;
+
+					}
+
+					.men1,.men2{
+
+						display: block;
+						font-size: 20px;
+						color:black;
+						text-decoration: none;
+						margin-top: 30px;
+
+					}
+
+					.div12{
+					 width: 100%;
+					 display: block;
+					  height: 200px;
+					 background-color:rgb(244, 244, 244);
+
+					}
+
+					.div13{
+
+					}
+					
+
+					
+					.sign1{ 
+						font-size:25px ;
+						width: 300px;
+						margin-left: 50px;
+
+					}
+
+					.email{
+						display: inline-block;
+						width: 300px;
+						display: inline;
+						height: 30px;
+						text-align: center;
+						font-size: 15px;
+					}
+
+					.sign2{ display: inline;
+						font-size: 15px;
+						color: white;
+						background-color: black;
+						width: 100px;
+						height: 35px;
+					
+
+					}
+
+					.acc1{
+						font-size: 30px;
+						color: black;
+						display: block;
+						margin-top: -130px;
+
+					
+
+
+					}
+					
+					.acc2{
+						font-size: 25px;
+						color: black;
+						display: block;
+
+
+					}
+					.acc3{
+						font-size: 25px;
+						color: black;
+						display: block;
+
+					}
+
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<center>
+			<br><br>
+			<img class="mik" src="https://www.michaelkors.global/img/logo_mk.webp" width="250px">
+
+			<a class="wom" href="/women">WOMEN</a>
+			<a class="men" href="/men">MEN</a>
+			<a class="kid" href="/kids">KIDS</a>
+			<a class="hand" href="/handbags">HANDBAGS</a>
+			<a class="shoes" href="/shoes">SHOES</a>
+			<a class="access" href="">ACCESSORIES</a>
+			<a class="watch" href="">WATCHES</a>
+			<a class="gift" href="">GIFTS</a>
+			<hr>
+</center>
+		</div>
+
+		<div class="div2">
+		<center>
+				<img class="vid" src="https://digital4.michaelkors.com/refreshes/2022/holiday/refresh5/global/desktop/homepage/HP_PROMO-1.jpg" width="90%">
+			<p class="glow">IT'S GLOW TIME</p>
+			<p class="sea">The season of shine starts now. Bella Hadid shows off shimmering metallics, plush faux furs and the gilded Hamilton handbag that brings luxe style to any locale.</p>
+
+			<br><br><a class="shop" href="/women">SHOP WOMEM'S NEW ARRIVALS &#8594</a>
+			<br><br><a class="shop2" href="/women">SHOP OCCASIONWEAR &#8594 </a>
+
+			<br><br><br><br>
+			<img class="bag" src="https://digital4.michaelkors.com/refreshes/2022/holiday/refresh2/EU/2B/desktop/homepage/HP_PROMO_2-1.jpg" width="820px">
+			<br><br>
+			<p class="gleam">With a gleaming center stripe, the Hamilton satchel offers glamour that goes whenever you do.</p>
+			<br>
+			<a class="shop3" href="/handbags">SHOP HANDBAGS &#8594 </a>
+
+		</center>
+
+		</div>
+
+		<br><br><br>
+
+		<div class="div3">
+
+		<hr class="hr1"></hr>
+		<p class="gifting">GIFTING</p>
+		<hr class="hr2"></hr>
+
+
+		<center>
+		<p class="get">GET AHEAD WITH GIFTING</p>
+		
+
+		<p class="be">Because It's never too early to find the Perfect Present.</p>
+		<br>
+
+		<a class="dis" href="">DISCOVER THE GIFTING HUB &#8594</a>
+		<br><br>
+		<div class="div4">
+		<a href=""><img class="image1" id = 'img1'  src="https://digital4.michaelkors.com/refreshes/2022/holiday/refresh2/EU/2B/desktop/homepage/HP_PROMO_3-1.jpg" width="400px" ></a>
+
+		<a class="sh1" id="sh1" href="">SHOP GIFTS FOR HER &#8594 </a>
+		</div>
+
+		<div class="div5">
+
+		<a href=""><img class="image2"  id="img2" src="https://digital4.michaelkors.com/refreshes/2022/holiday/refresh2/EU/2B/desktop/homepage/HP_PROMO_3-2.jpg" width="400px"></a>
+
+		<a class="sh2" id="sh2"  href="">SHOP WATCHES &#8594</a>
+		</div>
+
+		</center>
+
+		</div>
+
+		<div class="div6">
+			<center>
+				<p class="bre">BREAK THE RULES </p>
+				<p class="dar">Dare to remix the styling rules with glam-casual pieces that mix the sporty with the statement-making.</p>
+
+		<div class="div7">
+			<a href=""> <img class="image3" src="https://digital4.michaelkors.com/refreshes/2022/holiday/refresh2/EU/2B/desktop/homepage/HP_PROMO_2-1.jpg" width="650px"></a>
+			<a class="sh3" href="/women">SHOP WOMENS &#8594 </a>
+		</div>
+
+		<div class="div8">
+			<a href=""><img class="image4" src="https://digital4.michaelkors.com/refreshes/2022/holiday/refresh2/EU/2B/desktop/homepage/HP_PROMO_2-2.jpg" width="650px"></a>
+			<a class="sh4" href="/shoes">SHOP SHOES &#8594</a>
+		</div>			
+
+
+
+			</center>
+		</div>
+		<br><br><br><br><br><br><br><br>
+
+		<div class="div10">
+			
+		<hr class="hr3"></hr>
+		<p class="mik2">MICHEAL KORS MEN</p>
+		<hr class="hr4"></hr>
+			<center>
+		<a href=""><img class="image5"  src="https://digital4.michaelkors.com/refreshes/2022/holiday/refresh2/EU/2B/desktop/homepage/HP_PROMO_4.jpg" width="90%" height="700px"></a>
+</center>
+		<center>
+
+		<p class="ev">THE EVERY WHERE WARDROBE</p>
+		<p class="from">From work to the weekend, easy sweaters and hands-free bags make a sleek statement.</p>
+
+		<a class="men1" href="/men">SHOP MENS NEW ARRIVALS &#8594 </a>
+
+		<a class="men2" href="/men">SHOP MENS CLOTHING &#8594</a>
+
+		</center>
+
+
+		</div>
+			<br><br>
+		
+		<div class="div11">
+
+
+		<hr class="hr5"></hr>
+		<p class="mik2">MICHEAL KORS KIDS</p>
+		<hr class="hr6"></hr>
+
+
+		<a href=""><img class="image6" src="kids.png" width="100%"></a>
+
+		<center>
+
+		<p class="ev">RISE AND SHINE</p>
+		<p class="from">A little bit of sparkle goes a long way on our special occasion looks for little ones.</p>
+
+		<a class="men1" href="/kids">SHOP MICHAEL KORS KIDS &#8594 </a>
+
+		</center>	
+		</div>
+
+		<br>
+
+		<div class="div12">
+			<br>
+			<p class="sign1">Sign Up for updates from Michael Kors</p>
+			<input class="email" type="text" placeholder="Enter Your Email" name="">
+			<button class="sign2">Sign Up</button>
+
+			<div class="div13">
+			<center>
+			<a class="acc1"  href="">My ACCOUNT</a>
+			<br>
+			<a class="acc2" href="">Create Account</a>
+			<br>
+			<a class="acc3" href="">Accounts</a>
+			</center>
+			</div>
+		</div>
+
+<script type="text/javascript" src="kors.js"></script>
+</body>
+</html>
